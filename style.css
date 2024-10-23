@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: calc(1em + 0.5rem);
+}
+
+/* main section */
+
+.main {
+    max-width: 30%;
+    margin-inline: auto;
+    background-color: #000;
+    color: white;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.main__title {
+    font-size: 2rem;
+}
+
+.main__input {
+
+}
+
+
