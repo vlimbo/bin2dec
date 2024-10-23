@@ -74,6 +74,12 @@ body {
     display: none;
 }
 
+.main__decimal {
+    font-size: 1.5rem;
+    display: block;
+    margin-top: 1rem;
+}
+
 .main__warning {
     display: none;
     font-size: 1.3rem;

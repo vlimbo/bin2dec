@@ -1,6 +1,8 @@
 // variables
 const inputField = document.querySelector('.main__input');
 const warning = document.querySelector('.main__warning');
+const answer = document.querySelector('.main__answer');
+const decimalAnswer = document.querySelector('.main__decimal'); 
 const btn = document.querySelector('.main__btn');
 const convertBtn = document.querySelector('.main__convert-btn');
 
@@ -34,6 +36,8 @@ btn.addEventListener('click', () => {
 });
 
 convertBtn.addEventListener('click', () => {
+    answer.style.display = 'block';
+    decimalAnswer.textContent = convert();
     console.log(convert());
 });
 
