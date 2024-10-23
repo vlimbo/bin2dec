@@ -4,19 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HTML 5 Boilerplate</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..      32,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet     ">
+
+    <!-- stylesheets -->
     <link rel="stylesheet" href="style.css">
+
+    <title>Bin2Dec</title>
   </head>
   <body>
       <section class="main">
           <h1 class="main__title">Binary to decimal converter</h1>
           <p class="main__description">Max string of 8 binary numbers</p>
-          <input type="text"/>
-          <p class="main__descripiton">
-            Answer in decimal: <span class="main__answer"></span>
+          <input type="text" class="main__input" maxlength="8"/>
+          <p class="main__answer">
+            Answer in decimal: <span class="main__decimal"></span>
          </p>
       </section>
   </body>
-  <script src="app.js" class="main__input"></script>
+  <script src="app.js"></script>
 </html>
 
