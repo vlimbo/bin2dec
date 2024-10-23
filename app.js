@@ -4,6 +4,9 @@ const warning = document.querySelector('.main__warning');
 const btn = document.querySelector('.main__btn');
 
 // functions
+const convert = () => {
+    
+}
 
 // eventlisteners
 inputField.addEventListener('keydown', (event) => {
