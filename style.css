@@ -64,6 +64,7 @@ body {
     border-radius: 10px;
     color: black;
     font-family: inherit;
+    cursor: pointer;
 }
 
 .main__answer {
@@ -89,6 +90,7 @@ body {
     border-radius: 10px;
     color: black;
     font-family: inherit;
+    cursor: pointer;
 }
 
 
