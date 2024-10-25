@@ -17,7 +17,7 @@ const convert = () => {
         }
         binPosition--;
     }
-    return decimalArr.reduce((start, current) => start + current);
+    return decimalArr.reduce((start, current) => start + current); // One function to convert and return value
 }
 
 // eventlisteners
