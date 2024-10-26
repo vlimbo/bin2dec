@@ -83,6 +83,7 @@ body {
 .main__warning {
     display: none;
     font-size: 1.3rem;
+    margin-top: 1rem;
 }
 
 .main__btn {

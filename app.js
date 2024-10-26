@@ -26,6 +26,8 @@ inputField.addEventListener('keydown', (event) => {
         warning.style.display = 'block';
         inputField.disabled = true;
         btn.style.display = 'block';
+        answer.style.display = 'none';
+        convertBtn.disabled = true;
     }
 });
 
@@ -33,6 +35,7 @@ btn.addEventListener('click', () => {
     warning.style.display = '';
     inputField.disabled = false;
     btn.style.display = '';
+    convertBtn.disabled = false;
 });
 
 convertBtn.addEventListener('click', () => {
@@ -40,5 +43,6 @@ convertBtn.addEventListener('click', () => {
     decimalAnswer.textContent = convert();
     console.log(convert());
 });
+
 
 
