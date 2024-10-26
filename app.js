@@ -22,7 +22,7 @@ const convert = () => {
 
 // eventlisteners
 inputField.addEventListener('keydown', (event) => {
-    if (event.key !== '1' && event.key !== '0' && event.key !== 'Delete' && event.key !== 'Backspace') {
+    if (event.key !== '1' && event.key !== '0' && event.key !== 'Delete' && event.key !== 'Backspace' && event.key !== 'Enter') {
         warning.style.display = 'block';
         inputField.disabled = true;
         btn.style.display = 'block';
@@ -42,7 +42,14 @@ convertBtn.addEventListener('click', () => {
     answer.style.display = 'block';
     decimalAnswer.textContent = convert();
     console.log(convert());
+    inputField.value = '';
 });
 
-
-
+inputField.addEventListener('keydown', (event) => {
+    if (event.key === 'Enter') {
+        answer.style.display = 'block';
+        decimalAnswer.textContent = convert();
+        console.log(convert());
+        inputField.value = '';
+    }
+});
